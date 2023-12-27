@@ -1,0 +1,83 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-deepblack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect {
+    margin-top: 53px;
+    height: 636px;
+    width: 1135px;
+}
+
+p {}
+
+.h1 {
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.h2 {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.wrapper{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head{
+    height: 194px;
+    width: 571px;
+}
+
+.description{
+    height: 99px;
+    width: 560px;
+    font-size: 18px;
+    color: var(--color-white);
+    opacity: 50%;
+}
+
+.image{
+    width: 467.71px;
+    height: 544.71px;
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 438px;
+    height: 74px;
+    border-radius: 43px;
+    background-color: var(--color-grey);
+    padding: 0 8px 0 28px;
+}
+
+.input{
+    display: flex;
+    opacity: 20%;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+}
+
+.button{
+    height: 62px;
+    width: 137px;
+    background-color: var(--color-yellow);
+    color: var(--color-deepblack);
+    border-radius: 43px;
+    cursor: pointer;
+    border: none;
+}
