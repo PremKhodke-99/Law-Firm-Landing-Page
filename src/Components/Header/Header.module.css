@@ -1,9 +1,8 @@
 .header {
-    height: 100vh;
+    height: 990px;
     width: 100%;
     background-color: var(--color-deepblack);
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -12,8 +11,6 @@
     height: 636px;
     width: 1135px;
 }
-
-p {}
 
 .h1 {
     font-size: 66px;

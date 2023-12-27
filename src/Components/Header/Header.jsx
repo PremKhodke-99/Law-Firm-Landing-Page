@@ -12,7 +12,7 @@ const Header = () => {
                 <div className={styles.wrapper}>
                     <div className={styles.left}>
                         <p className={styles.head}><span className={styles.h1}>You don't have to</span><br /><span className={styles.h2}>Fight Them Alone.</span></p>
-                        <br/>
+                        <br />
                         <p className={styles.description}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptas. Necessitatibus similique quod magni sed amet quos iure ut deserunt alias aliquid, in aspernatur illum.</p>
                         <br />
                         <div className={styles.inputDiv}>
