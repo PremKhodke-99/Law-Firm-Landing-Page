@@ -1,4 +1,5 @@
 import './App.css';
+import AreaOfPractice from './Components/AreaOfPractice/AreaOfPractice';
 import ChooseUs from './Components/ChooseUs/ChooseUs';
 import Header from './Components/Header/Header';
 import Intro from './Components/Intro/Intro';
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Intro />
       <ChooseUs />
+      <AreaOfPractice />
     </div>
   );
 }

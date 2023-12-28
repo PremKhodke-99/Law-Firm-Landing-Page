@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexarea {
+    margin-top: 110px;
+    width: 1140px;
+    height: 1228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    position: relative;
+}
+
+h1{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.text{
+    position: absolute;
+    bottom: 41px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
