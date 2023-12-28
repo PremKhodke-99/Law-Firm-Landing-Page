@@ -7,6 +7,9 @@
   --color-grey: #2e2e2e;
   --color-smokewhite: #e6e6e6;
   --color-white: #ffffff;
+  --color-fadedWhite: rgba(255, 255, 255, 0.1);
+  --color-fadedgrey: #6A6A6A;
+  --color-hovergrey: rgba(46, 46, 46, 1);
 }
 
 

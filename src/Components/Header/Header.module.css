@@ -1,5 +1,5 @@
 .header {
-    height: 990px;
+    height: 900px;
     width: 100%;
     background-color: var(--color-deepblack);
     display: flex;
@@ -73,7 +73,7 @@ input{
     height: 62px;
     width: 137px;
     background-color: var(--color-yellow);
-    color: var(--color-deepblack);
+    color: var(--color-deepblack); 
     border-radius: 43px;
     cursor: pointer;
     border: none;

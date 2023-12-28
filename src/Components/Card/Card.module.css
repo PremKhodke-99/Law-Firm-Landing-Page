@@ -1,0 +1,50 @@
+.card{
+    height: 377px;
+    width: 359px;
+    border-radius: 14px;
+    border: 1.4px solid var(--color-fadedWhite);
+    position: relative;
+}
+
+.hover :hover{
+    background-color: var(--color-fadedWhite);
+}
+
+.image{
+    position: absolute;
+    height: 101px;
+    width: 101px;
+    left: 24px;
+    top: 28px;
+}
+
+.success{
+    position: absolute;
+    left: 23px;
+    top: 157px;
+}
+
+.para{
+    font-size: 14px;
+    height: 69px;
+    width: 293px;
+    position: absolute;
+    opacity: 30%;
+    left: 23px;
+    top: 207px;
+    line-height: 22.57px;
+}
+
+
+.button{
+    position: absolute;
+    width: 121px;
+    height: 43px;
+    border-radius: 23.5px;
+    border: none;
+    left: 23px;
+    top: 298px;
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}

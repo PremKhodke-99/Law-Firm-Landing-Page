@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    height: 174px;
+    width: 1132px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.introOne{
+    height: 174px;
+    width: 387px;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+hr{
+    height: 206px;
+}
+
+.introTwo{
+    height: 155px;
+    width: 475px;
+}
+
+p{
+    opacity: 30%;
+}

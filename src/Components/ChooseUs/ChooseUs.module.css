@@ -1,0 +1,22 @@
+.flex{
+    margin-top: 181px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1139px;
+    height: 500px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
