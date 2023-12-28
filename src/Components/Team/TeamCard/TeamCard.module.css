@@ -1,0 +1,17 @@
+.wrapper :hover{
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+}
+
+.rect{
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .rect */
