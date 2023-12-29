@@ -9,7 +9,7 @@ const Intro = () => {
         <hr/>
         <div className={styles.introTwo}>
             <h1>Criminal Lawyer</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exercitation.</p>
+            <p className={styles.para}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exercitation.</p>
         </div>
     </div>
     </div>
