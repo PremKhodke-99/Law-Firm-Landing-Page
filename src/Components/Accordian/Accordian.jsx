@@ -12,7 +12,7 @@ export default function ControlledAccordions() {
 
     return (
         <div>
-            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} className={styles.accordian}>
+            <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} sx={{backgroundColor: 'var(--color-black)', color: 'var(--color-white)', borderBottom: '1px solid var(--color-fadedWhite)'}}>
                 <AccordionSummary
                     expandIcon={
                         expanded ? <></> : <PlusIcon />
@@ -33,7 +33,7 @@ export default function ControlledAccordions() {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className={styles.accordian}>
+            <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}  sx={{backgroundColor: 'var(--color-black)', color: 'var(--color-white)', borderBottom: '1px solid var(--color-fadedWhite)'}}>
                 <AccordionSummary
                     expandIcon={<PlusIcon />}
                     aria-controls="panel2bh-content"
@@ -49,7 +49,7 @@ export default function ControlledAccordions() {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} className={styles.accordian}>
+            <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}  sx={{backgroundColor: 'var(--color-black)', color: 'var(--color-white)', borderBottom: '1px solid var(--color-fadedWhite)'}}>
                 <AccordionSummary
                     expandIcon={<PlusIcon />}
                     aria-controls="panel3bh-content"
@@ -66,7 +66,7 @@ export default function ControlledAccordions() {
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} className={styles.accordian}>
+            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}  sx={{backgroundColor: 'var(--color-black)', color: 'var(--color-white)', borderBottom: '1px solid var(--color-fadedWhite)'}}>
                 <AccordionSummary
                     expandIcon={<PlusIcon />}
                     aria-controls="panel4bh-content"
