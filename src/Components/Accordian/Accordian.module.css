@@ -1,0 +1,6 @@
+.accordian{
+    background-color: var(--color-black);
+    border-bottom: 1px solid var(--color-fadedWhite);
+    color: var(--color-white);
+    line-height: 29.25px;
+}

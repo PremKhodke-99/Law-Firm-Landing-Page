@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox{
+    margin-top: 110px;
+    width: 1140px;
+    height: 629px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accord{
+    display: flex;
+}
+
+.para{
+    height: 58px;
+    width: 557px;
+}

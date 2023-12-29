@@ -10,7 +10,7 @@ const TeamCard = ({image, name, cases}) => {
         </div>
         <div>
             <h2>{name}</h2>
-            <p>{cases} Cases</p>
+            <p className={styles.cases}>{cases} Cases</p>
         </div>
     </div>
     </div>
