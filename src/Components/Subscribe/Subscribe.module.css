@@ -1,0 +1,49 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexWrap{
+    width: 1245px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-color: var(--color-lightgrey);
+}
+
+.header{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.input{
+    display: flex;
+    gap: 10px;
+}
+
+.name,
+.email{
+    height: 53px;
+    width: 276px;
+    background-color: var(--color-inputWhite);
+    padding-left: 23px;
+    font-style: italic;
+}
+
+.name{
+    border-radius: 8px 0 0 8px;
+}
+
+.button{
+    height: 53px;
+    width: 116px;
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+    font-weight: 700;
+}

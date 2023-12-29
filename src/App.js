@@ -5,6 +5,7 @@ import Clients from './Components/Clients/Clients';
 import Faq from './Components/Faq/Faq';
 import Header from './Components/Header/Header';
 import Intro from './Components/Intro/Intro';
+import Subscribe from './Components/Subscribe/Subscribe';
 import Team from './Components/Team/Team';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Clients />
       <Team />
       <Faq />
+      <Subscribe />
     </div>
   );
 }
